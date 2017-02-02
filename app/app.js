@@ -13,16 +13,25 @@
 		stateProvider
 			//estado para la pagina de inicio del usuario
 			.state('home', {
-				url: '/'
+				url: '/',
 				templateUrl: 'home/index.html',
-				controller: ''
+				controller: '',
+				controllerAs:
 
 			})
 
 			//estado para la pagina de la cuenta del usuario
-			.state('useraccount',{
+			.state('useraccount', {
+				url: '/useraccount',
+				templateUrl: 'useraccount/index.html',
+				controller: '',
+				controllerAs: ''
 
 			});
+	}
+
+	function run($http, $window) {
+		
 	}
 
 
