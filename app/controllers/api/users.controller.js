@@ -36,3 +36,48 @@ function registerUser(req, res) {
         res.status(400).send(err);
     });
 }
+
+function getCurrentUser(req, res) {
+    userService.getById(req.user.sub)
+        .then(function (user) {
+            if(user) {
+                res.send(user);
+            }else{
+                res.sendStatus(404);
+            }
+        })
+        .catch(function(err) {
+            res.status(400).send(err);
+        });
+}
+
+function updateUser(req, res) {
+    var userId = req.user.sub;
+    if(req.params._id !== userId) {
+        //borrado de cuenta
+        return res.status(401).send('You can only update your own account');
+    }
+    
+    userService.update(userId, req.body)
+        .then(function (){
+            res.sendStatus(200);
+    })
+    .catch(function (err){
+        res.status(400).send(err);
+    });
+}
+
+function deleteUser(req, res) {
+    var userId = req.user.sub;
+    if(req.params._id !== userId) {
+        //borrado de cuenta
+        return res.status(401).send('You can only delete your own account');
+    }
+    userService.delete(userId)
+        .then(function() {
+            res.sendStatus(200);        
+    })
+    .catch(function(err) {
+        res.status(400).send(err);
+    });
+}
