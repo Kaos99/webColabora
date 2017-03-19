@@ -3,7 +3,7 @@ var router = express.Router();
 var request = require('request');
 var config = require('config.json');
 
-router.get('/',function(req,res)) {
+router.get('/',function(req,res) {
     //logout del usuario
     delete req.session.token;
            
