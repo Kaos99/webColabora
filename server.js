@@ -28,5 +28,5 @@ app.get('/',function(req,res) {
 
 //se inicia el servidor
 var server = app.listen(3000,function(){
-    console.log('Servidor atendiendo en http://' + server.addres().address + ':' + server.addres().port);
+    console.log('Servidor atendiendo en http://' + server.address().address + ':' + server.address().port);
 });
