@@ -116,7 +116,7 @@ function update(_id, userParam) {
         //campos para actualizar
         var set = {
             firstName: userParam.firstName,
-            lastName: userParam.lastName
+            lastName: userParam.lastName,
             username: userParam.username,
         };
         
