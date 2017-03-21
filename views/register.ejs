@@ -7,30 +7,24 @@
     <form method="post">
         <div class="form-group">
             <label for="firstName">Nombre</label>
-            <input type="text" name="firstName" id="firstName" class="form-control" value="<%= locals.firsName || '' %>" required />
+            <input type="text" name="firstName" id="firstName" class="form-control" value="<%= locals.firstName || '' %>" required />
         </div>
-        
         <div class="form-group">
             <label for="lastName">Apellidos</label>
-            <input type="text" name="lastName" id="lastName" class="form-control" value="<%= locals.lastName || '' %>" required/>
-        
+            <input type="text" name="lastName" id="lastName" class="form-control" value="<%= locals.lastName || '' %>" required />
         </div>
-        
         <div class="form-group">
-            <label for="username">Nombre de Usuario</label>
-            <input type="text" name="username" id="username" class="form-control" value="<%= locals.username || '' %>" required/>
+            <label for="username">Nombre de usuario</label>
+            <input type="text" name="username" id="username" class="form-control" value="<%= locals.username || '' %>" required />
         </div>
-        
         <div class="form-group">
             <label for="password">Contraseña</label>
             <input type="password" name="password" id="password" class="form-control" required />
-        
         </div>
-        
         <div class="form-group">
             <button type="submit" class="btn btn-primary">Registrar</button>
             <a href="/login" class="btn btn-link">Cancelar</a>
-        </div>  
+        </div>
     </form>
 </div>
 <%- include('partials/footer') %>

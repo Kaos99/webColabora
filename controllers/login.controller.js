@@ -2,39 +2,40 @@ var express = require('express');
 var router = express.Router();
 var request = require('request');
 var config = require('config.json');
-
-router.get('/',function(req,res) {
-    //logout del usuario
+ 
+router.get('/', function (req, res) {
+    // log user out
     delete req.session.token;
-           
-    //se mueve el mensaje de exito en variable local para que aparezca una vez (solo lectura)
+ 
+    // move success message into local variable so it only appears once (single read)
     var viewData = { success: req.session.success };
     delete req.session.success;
-           
-    res.render('login',viewData);
+ 
+    res.render('login', viewData);
 });
-
-router.post('/',function(req,res) {
-    //autentificar usando api para mantener la separacion entre las capas
+ 
+router.post('/', function (req, res) {
+    // authenticate using api to maintain clean separation between layers
     request.post({
         url: config.apiUrl + '/users/authenticate',
         form: req.body,
-        json:true
-    },function(error,response,body) {
-        if(error){
-            return res.render('login',{ error:'An error occurred' });
+        json: true
+    }, function (error, response, body) {
+        if (error) {
+            return res.render('login', { error: 'Ocurrio un error' });
         }
-        if(!body.token){
-            return res.render('login',{error:'Username or password is incorrect', username:req.body.username});
+ 
+        if (!body.token) {
+            return res.render('login', { error: 'Nombre de usuario o contraseña incorrecta', username: req.body.username });
         }
-        
-        //se guarda el token JWT en la sesion para hacerlo disponible en la aplicacion de angular
+ 
+        // save JWT token in the session to make it available to the angular app
         req.session.token = body.token;
-        
-        //redirigir hacia returnUrl
+ 
+        // redirect to returnUrl
         var returnUrl = req.query.returnUrl && decodeURIComponent(req.query.returnUrl) || '/';
         res.redirect(returnUrl);
     });
 });
-
+ 
 module.exports = router;

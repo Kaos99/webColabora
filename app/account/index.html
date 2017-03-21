@@ -1,28 +1,24 @@
-<h1>Cuenta Personal de Usuario</h1>
+<h1>Cuenta Personal del Usuario</h1>
 <div class="form-container">
     <form method="post">
         <div class="form-group">
-            <label for="firstName">Nombre </label>
+            <label for="firstName">Nombre</label>
             <input type="text" id="firstName" class="form-control" ng-model="vm.user.firstName" required />
         </div>
-        
         <div class="form-group">
-            <label for="lastname">Apellidos </label>
+            <label for="lastName">Apellidos</label>
             <input type="text" id="lastName" class="form-control" ng-model="vm.user.lastName" required />
         </div>
-        
         <div class="form-group">
-            <label for="username">Nombre de usuario</label>
+            <label for="username">Nombre de Usuario</label>
             <input type="text" id="username" class="form-control" ng-model="vm.user.username" required />
         </div>
-        
         <div class="form-group">
             <label for="password">Contraseña</label>
-            <input type="password" id="password" class="form-control" ng-model="vm.user.password"/>
+            <input type="password" id="password" class="form-control" ng-model="vm.user.password" />
         </div>
-    
         <div class="form-group">
-            <button class="btn btn-primary" ng-click="vm.saveUser()">Actualizar</button>
+            <button class="btn btn-primary" ng-click="vm.saveUser()">Guardar</button>
             <button class="btn btn-danger" ng-click="vm.deleteUser()">Eliminar</button>
         </div>
     </form>

@@ -1,9 +1,8 @@
 <%- include('partials/header') %>
 <div class="form-container">
-    <h2>Colabora</h2>
+    <h2>Iniciar Sesion</h2>
     <% if(locals.error) { %>
         <div class="alert alert-danger"><%= error %></div>
-    
     <% } %>
     <% if(locals.success) { %>
         <div class="alert alert-success"><%= success %></div>
@@ -11,20 +10,16 @@
     <form method="post">
         <div class="form-group">
             <label for="username">Nombre de usuario</label>
-            <input type="text" name="username" id="username" value="<%= locals.username || '' %>" class="form-control"/>      
+            <input type="text" name="username" id="username" value="<%= locals.username || '' %>" class="form-control" />
         </div>
-    
         <div class="form-group">
             <label for="password">Contraseña</label>
             <input type="password" name="password" id="password" class="form-control" />
-        
         </div>
-        
         <div class="form-group">
             <button type="submit" class="btn btn-primary">Iniciar sesion</button>
             <a href="/register" class="btn btn-link">Registrar</a>
         </div>
-    
     </form>
 </div>
 <%- include('partials/footer') %>
