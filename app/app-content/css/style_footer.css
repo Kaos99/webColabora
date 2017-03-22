@@ -8,6 +8,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -50,4 +51,17 @@ color:#000000;
 
 .divfo {
   border-top: 1px solid #333;
+}
+
+
+
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
 }
