@@ -1,8 +1,15 @@
+<head>
+    <!-- Custom CSS -->
+    <link href="app-content/css/landing_page.css" rel="stylesheet">
+</head>
+
+<div class="intro-account">
+<div class="container">
 <h1>Cuenta Personal del Usuario</h1>
 <div class="flash-message" ng-if="flash">
     <div class="{{'alert alert-' + flash.type}}" ng-bind="flash.message"></div>
 </div>
-<div class="form-container">
+<!--<div class="form-container">-->
     <form method="post">
         <div class="form-group">
             <label for="firstName">Nombre</label>
@@ -25,4 +32,6 @@
             <button class="btn btn-danger" ng-click="vm.deleteUser()">Eliminar</button>
         </div>
     </form>
+<!--</div>-->
+</div>
 </div>
