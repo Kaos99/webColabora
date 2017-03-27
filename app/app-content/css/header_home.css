@@ -1,25 +1,11 @@
 .logo {
-	margin-bottom: 7px;
+	margin-bottom: 5px;
 	width: 140px;
+    margin-top: -5px;
 
 }
 
-.navbar-login
-{
-    width: 305px;
-    padding: 10px;
-    padding-bottom: 0px;
-}
-
-.navbar-login-session
-{
-    padding: 10px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
-.navbar {min-height: 40px;}
-.navbar-brand {height: 60px; line-height: 40px;}
+.navbar-brand {line-height: 40px;}
 
 .icon-size
 {
@@ -31,15 +17,5 @@ width: 210px;
 height: 50px; 
 }
 
-.centrar {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
 
-.mycontent-left {
-  border-right: 1px solid #333;
-}
+
