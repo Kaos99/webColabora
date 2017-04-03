@@ -34,7 +34,7 @@
                 url: "/decisiones",
                 templateUrl: 'decisiones/decisiones.html'
             })
-            .state('/seguimiento', {
+            .state('seguimiento', {
                 url: "/seguimiento",
                 templateUrl: 'seguimiento/seguimiento.html'
             });
