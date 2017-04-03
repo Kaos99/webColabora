@@ -24,6 +24,11 @@
                 controller: 'Account.IndexController',
                 controllerAs: 'vm',
                 data: { activeTab: 'account' }
+            })
+            .state('participa', {
+                url: "/participa",
+                templateUrl: 'participa/participa.html'
+            
             });
     }
  
