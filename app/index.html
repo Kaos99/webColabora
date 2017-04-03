@@ -33,9 +33,18 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ng-class="{active: activeTab === 'home'}"><a ui-sref="home">Inicio</a></li>
-                    <li ng-class="{active: activeTab === 'account'}"><a ui-sref="account">Cuenta</a></li>
-                    <li><a href="/login" target="_self">Desconectar</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span> 
+                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li ng-class="{active: activeTab === 'home'}"><a ui-sref="home">Inicio</a></li>
+                            <li ng-class="{active: activeTab === 'account'}"><a ui-sref="account">Cuenta</a></li>
+                            <li><a href="/login" target="_self">Desconectar</a></li>
+                        </ul>
+                    </li>      
+                    
                 </ul>
                 
             </div>
