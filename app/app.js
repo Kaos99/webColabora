@@ -29,6 +29,14 @@
                 url: "/participa",
                 templateUrl: 'participa/participa.html'
             
+            })
+            .state('decisiones', {
+                url: "/decisiones",
+                templateUrl: 'decisiones/decisiones.html'
+            })
+            .state('/seguimiento', {
+                url: "/seguimiento",
+                templateUrl: 'seguimiento/seguimiento.html'
             });
     }
  
