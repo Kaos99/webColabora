@@ -5,6 +5,25 @@
 
 }
 
+.participa-nav {
+    margin-bottom: 5px;
+	width: 100px;
+    margin-top: -5px;
+}
+
+.decisiones-nav {
+    margin-bottom: 3px;
+	width: 110px;
+    margin-top: -1px;
+}
+
+.seguimiento-nav {
+    margin-bottom: 5px;
+	width: 100px;
+    margin-top: -5px;
+}
+
+
 .navbar-brand {line-height: 40px;}
 
 .icon-size
