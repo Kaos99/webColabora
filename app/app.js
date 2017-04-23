@@ -27,7 +27,9 @@
             })
             .state('participa', {
                 url: "/participa",
-                templateUrl: 'participa/participa.html'
+                templateUrl: 'participa/participa.html',
+                controller: 'Participa.ActionController',
+                data: { activeTab: 'participa'}
             
             })
             .state('decisiones', {
