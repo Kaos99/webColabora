@@ -29,6 +29,7 @@
                 url: "/participa",
                 templateUrl: 'participa/participa.html',
                 controller: 'Participa.ActionController',
+                controllerAs: 'vm',
                 data: { activeTab: 'participa'}
             
             })

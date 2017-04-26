@@ -1,26 +1,38 @@
-<html ng-app="app">
+<html>
 <head>
     <!-- Custom CSS -->
     <link href="app-content/css/landing_page.css" rel="stylesheet">
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-nvd3/1.0.9/angular-nvd3.js"></script>
-    
-    
-    <!--<script src="participa.controller.js"></script>-->
-    
 
+    <style>
+        body {
+            font: 14px sans-serif;
+        }
+        .axis path, .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+        .axis path{
+            fill: none;
+            stroke: none;
+        }
+        .bar {
+            fill: steelblue;
+        }
+    </style>
     
+  
 </head>
 
 <body>
     <div class="intro-participa">
         <div class="container">
             <h3>Áreas</h3>
-
-            <nvd3 options="options" data="data" class="with-3d-shadow with-transitions"></nvd3>
+            
+            <chart-form></chart-form>
+            <bar-chart height="options.height" data="data" hovered="hovered(args)"></bar-chart>
+            
+            
 
                     
             
