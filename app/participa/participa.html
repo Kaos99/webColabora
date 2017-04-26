@@ -4,20 +4,16 @@
     <link href="app-content/css/landing_page.css" rel="stylesheet">
 
     <style>
-        body {
-            font: 14px sans-serif;
+        .node circle {
+        cursor: pointer;
+        stroke: #3182bd;
+        stroke-width: 1.5px;
         }
-        .axis path, .axis line {
-            fill: none;
-            stroke: black;
-            shape-rendering: crispEdges;
-        }
-        .axis path{
-            fill: none;
-            stroke: none;
-        }
-        .bar {
-            fill: steelblue;
+
+        .node text {
+        font: 10px sans-serif;
+        pointer-events: none;
+        text-anchor: middle;
         }
     </style>
     
@@ -27,14 +23,13 @@
 <body>
     <div class="intro-participa">
         <div class="container">
-            <h3>Áreas</h3>
-            
-            <chart-form></chart-form>
-            <bar-chart height="options.height" data="data" hovered="hovered(args)"></bar-chart>
-            
-            
-
-                    
+            <h3 class="area">Áreas</h3>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6"><svg sunburst-chart></svg></div>
+                <div class="col-sm-3"></div>
+                
+            </div>
             
         </div>   
     </div>
