@@ -9,7 +9,7 @@ angular.module('angular-d3-sunburst', [])
 		restrict: 'AE',
 		controller: function($scope, $element) {
 			// Rendering options {{{
-			$scope.margin = {top: 350, right: 480, bottom: 350, left: 480};
+			$scope.margin = {top: 350, right:250, bottom: 350, left: 250};
 			$scope.radius = Math.min($scope.margin.top, $scope.margin.right, $scope.margin.bottom, $scope.margin.left) - 10;
 			// }}}
 
@@ -228,7 +228,7 @@ angular.module('angular-d3-sunburst', [])
 					.on("click", $scope.zoomOut);
 
 				$scope.center.append("title")
-					.text("zoom out");
+					.text("");
 				  
 				var partitioned_data = $scope.partition.nodes($scope.sunburst).slice(1)
 
@@ -246,7 +246,7 @@ angular.module('angular-d3-sunburst', [])
 				  
 				$scope.texts = $scope.svg.selectAll("text")
 					.data(partitioned_data)
-					.enter().append("text")
+					.enter().append("") //dejamos vacio el campo para imprimor en la misma area
 					.filter(function(d, i) {
 						return (d.dx*d.depth*$scope.radius/3)>14
 					})
