@@ -25,6 +25,7 @@ h6 {
 
 h3.area{
     color: #2E2D2D;
+    padding-top: 28px;
 }
 
 .topnav {
@@ -46,8 +47,8 @@ h3.area{
 }
 
 .intro-participa {
-    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 30px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 5px;
     color: #353333;
     background: url(../img/background/intro-bg.png) no-repeat center center;
     background-size: cover;
@@ -190,3 +191,8 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+/* sunburst alineado arriba del todo en participa template */
+div.ng-isolate-scope.d3-tooltip.size {
+    /* margin-bottom: 56px; */
+    margin-top: -140px;
