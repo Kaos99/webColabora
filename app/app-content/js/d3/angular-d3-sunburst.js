@@ -166,14 +166,18 @@ angular.module('angular-d3-sunburst', [])
 			$scope.tooltip;
 
 			$scope.initBuild = function() {
-				$scope.hue = d3.scale.category10();
+				//$scope.hue = d3.scale.category10();
+                
+                $scope.hue = d3.scale.ordinal()
+                .range(["#2879d8","#f04c41","#AAA6A6","#0C38B2","#6FA1FF","#bbbbbb","#3467AE"]);
 
 				$scope.luminance = d3.scale.sqrt()
 					.domain([0, 1e6])
 					.clamp(true)
 					.range([90, 20]);
 
-				$scope.svg = d3.select($element[0]).append("svg")
+				$scope.svg = d3.select($element[0]).
+                     append("svg")
 					.classed('d3-sunburst', true)
 					.attr("width", $scope.margin.left + $scope.margin.right)
 					.attr("height", $scope.margin.top + $scope.margin.bottom)
@@ -216,14 +220,17 @@ angular.module('angular-d3-sunburst', [])
 						d.sum = d.value;
 						d.key = $scope.key(d);
 						d.fill = $scope.fill(d);
+                        d.url = d.value;
 					});
 
 				// Now redefine the value function to use the previously-computed sum.
 				$scope.partition
 					.children(function(d, depth) { return depth < 2 ? d._children : null; })
 					.value(function(d) { return d.sum; });
-
-				$scope.center = $scope.svg.append("circle")
+                
+                // dibuja el circulo central    
+				$scope.center = $scope.svg.
+                append("circle")
 					.attr("r", $scope.radius / 3)
 					.on("click", $scope.zoomOut);
 
@@ -234,7 +241,12 @@ angular.module('angular-d3-sunburst', [])
 
 				$scope.path = $scope.svg.selectAll("path")
 					.data(partitioned_data)
-				.enter().append("path")
+				.enter().
+                
+                      append("a")
+                     .attr("xlink:href", function(d){return d.url;})
+                
+                     .append("path") 
 					.attr("d", $scope.arc)
 					.style("fill", function(d) { return d.fill; })
 					.each(function(d) { this._current = $scope.updateArc(d); })
