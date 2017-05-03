@@ -1,0 +1,52 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+    <!-- Custom CSS -->
+    <link href="app-content/css/landing_page.css" rel="stylesheet">
+    <link href="app-content/css/angular-d3-sunburst.css" rel="stylesheet">
+
+    <style>
+        .node circle {
+        cursor: pointer;
+        stroke: #3182bd;
+        stroke-width: 1.5px;
+        }
+
+        .node text {
+        font: 10px sans-serif;
+        pointer-events: none;
+        text-anchor: middle;
+        }
+    </style>
+    
+  
+</head>
+
+<body>
+    <div class="intro-participa">
+        <div class="container">
+            <h3 class="area">Áreas</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div sunburst="chart" tooltip="tooltipFunc"></div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div>
+                        </div>
+                        <div class="infoPro">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+                         
+        </div>   
+    </div>
+     
+</body>
+            
+</html>      
+        
