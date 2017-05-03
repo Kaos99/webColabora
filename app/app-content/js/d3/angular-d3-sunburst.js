@@ -220,7 +220,7 @@ angular.module('angular-d3-sunburst', [])
 						d.sum = d.value;
 						d.key = $scope.key(d);
 						d.fill = $scope.fill(d);
-                        d.url = d.value;
+                        
 					});
 
 				// Now redefine the value function to use the previously-computed sum.
@@ -242,7 +242,7 @@ angular.module('angular-d3-sunburst', [])
 				$scope.path = $scope.svg.selectAll("path")
 					.data(partitioned_data)
 				.enter().
-                
+                      //enlazar url del json
                       append("a")
                      .attr("xlink:href", function(d){return d.url;})
                 

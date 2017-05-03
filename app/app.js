@@ -40,6 +40,11 @@
             .state('seguimiento', {
                 url: "/seguimiento",
                 templateUrl: 'seguimiento/seguimiento.html'
+            })
+        
+            .state('participa/proyecto', {
+                url: "/participa/proyecto1",
+                templateUrl: 'participa/proyectos/proyecto1.html'
             });
     }
  
