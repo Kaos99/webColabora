@@ -44,7 +44,9 @@
         
             .state('participa/proyecto', {
                 url: "/participa/proyecto1",
-                templateUrl: 'participa/proyectos/proyecto1.html'
+                templateUrl: 'participa/proyectos/urbanismo/proyecto1.html',
+                controller: 'ParticipaUrbanismo.ActionController',
+                controllerAs: 'vm'
             });
     }
  
