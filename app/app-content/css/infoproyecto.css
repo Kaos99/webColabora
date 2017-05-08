@@ -1,0 +1,8 @@
+div.enlinea {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+p.informacion-proyecto{
+        margin: 0 0 100px !important;
+}
