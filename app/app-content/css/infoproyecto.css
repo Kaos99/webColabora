@@ -1,8 +1,47 @@
 div.enlinea {
     display: inline-block;
     padding-right: 40px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
+
+h4.panel-title{
+    font-size:x-large !important;
+}
 p.informacion-proyecto{
         margin: 0 0 100px !important;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	   font-size: 14px;
+	   font-style: normal;
+	   font-variant: normal;
+	   font-weight: 400;
+	   line-height: 20px;
+}
+
+div.panel-body {
+    background-color: #CECBCB !important;
+}
+
+h5.h5-urbanismo{
+    color: black;
+}
+
+div.text-objetivos{
+    padding-right: 40px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 0px;
+}
+
+p span{
+    background-color: white !important;
 }
