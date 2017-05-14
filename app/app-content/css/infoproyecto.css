@@ -25,6 +25,11 @@ p.informacion-proyecto{
 
 div.panel-body {
     background-color: #CECBCB !important;
+
+}
+div.panel.panel-default{
+    margin-left: 150px !important;
+    margin-bottom: 0px !important;
 }
 
 h5.h5-urbanismo{
@@ -44,4 +49,34 @@ div.text-objetivos{
 
 p span{
     background-color: white !important;
+}
+
+a.btn.btn-primary.btn-lg.masinfo{
+    background-color: #445461 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    margin-left: 150px;
+}
+a.btn.btn-primary.btn-lg.vota{
+    background-color: #f04c41 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+}
+a.btn.btn-primary.btn-lg.delibera{
+    background-color: #b2defb !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    color: #666666 !important;
+}
+img.img-mas{
+    width: 35px;
+    height: 35px;
+}
+img.img-voto{
+    width: 35px;
+    height: 35px;
+}
+img.img-lupa{
+    width: 35px;
+    height: 35px;
 }
