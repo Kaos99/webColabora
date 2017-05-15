@@ -28,7 +28,7 @@ div.panel-body {
 
 }
 div.panel.panel-default{
-    margin-left: 150px !important;
+    
     margin-bottom: 0px !important;
 }
 
@@ -55,18 +55,20 @@ a.btn.btn-primary.btn-lg.masinfo{
     background-color: #445461 !important;
     border-color: transparent !important;
     border-radius: 0px !important;
-    margin-left: 150px;
+    inline-size: 132px;
 }
 a.btn.btn-primary.btn-lg.vota{
     background-color: #f04c41 !important;
     border-color: transparent !important;
-    border-radius: 0px !important;
+    border-radius: 0px !important;    
+    inline-size: 146px;
 }
 a.btn.btn-primary.btn-lg.delibera{
     background-color: #b2defb !important;
     border-color: transparent !important;
     border-radius: 0px !important;
     color: #666666 !important;
+    inline-size: 130px;
 }
 img.img-mas{
     width: 35px;
@@ -79,4 +81,10 @@ img.img-voto{
 img.img-lupa{
     width: 35px;
     height: 35px;
+}
+div.col-lg-3.div-vota{
+    padding-left: 0px !important;
+}
+div.col-lg-3.div-deli{
+    padding-left: 0px !important;
 }
