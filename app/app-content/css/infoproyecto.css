@@ -88,3 +88,41 @@ div.col-lg-3.div-vota{
 div.col-lg-3.div-deli{
     padding-left: 0px !important;
 }
+span.porcentaje{
+    font-size: 0.8em !important;
+    display:block;
+    position: relative;
+    left: 140px;
+}
+span.fecha-rango1{
+    font-size: 0.8em !important;
+    color: #f04c41 !important;
+    position:relative;
+    bottom: 3px;
+}
+span.fecha-rango2{
+    font-size: 0.8em !important;
+    color: #f04c41 !important;
+    position: relative;
+    bottom: 3px;
+    right: 13px;
+}
+div.col-lg-5.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    border-radius: 53px 53px 53px 53px;
+    -moz-border-radius: 53px 53px 53px 53px;
+    -webkit-border-radius: 53px 53px 53px 53px;
+    border: 0px solid #000000;
+}
+div.col-lg-3.rango-gris{
+    height:15px;
+    background-color: #445461 !important;
+    border-radius: 53px 53px 53px 53px;
+    -moz-border-radius: 53px 53px 53px 53px;
+    -webkit-border-radius: 53px 53px 53px 53px;
+    border: 0px solid #000000;
+}
+div.row.separacion-fila{
+    margin-bottom: 10px !important;
+}
