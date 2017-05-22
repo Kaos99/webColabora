@@ -42,12 +42,20 @@
                 templateUrl: 'seguimiento/seguimiento.html'
             })
         
-            .state('participa/proyecto', {
+            .state('participa/proyectoUrba1', {
                 url: "/participa/proyecto1",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto1.html',
                 controller: 'ParticipaUrbanismo.ActionController',
                 controllerAs: 'vm'
-            });
+            })
+            
+            .state('participa/proyectoUrba2', {
+                url: "/participa/proyecto2",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto2.html',
+                controller: 'ParticipaUrbanismo.ActionController',
+                controllerAs: 'vm'
+            })
+            ;
     }
  
     function run($http, $rootScope, $window) {

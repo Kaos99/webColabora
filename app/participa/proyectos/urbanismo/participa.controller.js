@@ -15,7 +15,7 @@ angular
 	   "color": "#FF0000",
 	   "children": [
 		{"name": "Proyecto 1", "size": 20000,"url":  "/app/#/participa/proyecto1"},
-		{"name": "Proyecto 2","size": 20000},
+		{"name": "Proyecto 2","size": 20000,"url":  "/app/#/participa/proyecto2"},
 		{"name": "Proyecto 3","size": 10000}
 	   ]
 	  },
