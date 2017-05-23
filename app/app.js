@@ -55,6 +55,19 @@
                 controller: 'ParticipaUrbanismo.ActionController',
                 controllerAs: 'vm'
             })
+            .state('participa/proyectoUrba3', {
+                url: "/participa/proyecto3",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto3.html',
+                controller: 'ParticipaUrbanismo.ActionController',
+                controllerAs: 'vm'
+            })
+            .state('participa/proyectoUrba1/masinfo',{
+                url: "/participa/proyectoUrba1/masinfo",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto1info.html',
+                controller: 'ParticipaUrbanismo.ActionController',
+                controllerAs: 'vm'
+            
+            })
             ;
     }
  

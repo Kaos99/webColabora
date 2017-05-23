@@ -14,9 +14,9 @@ angular
 	   "classed": "danger",
 	   "color": "#FF0000",
 	   "children": [
-		{"name": "Proyecto 1", "size": 20000,"url": "/app/#/participa/proyecto1"},
-		{"name": "Proyecto 2","size": 20000,"url": "/app/#/participa/proyecto2"},
-		{"name": "Proyecto 3","size": 10000}
+		{"name": "El Cañaveral", "size": 20000,"url": "/app/#/participa/proyecto1"},
+		{"name": "La Peineta","size": 20000,"url": "/app/#/participa/proyecto2"},
+		{"name": "Live Resort","size": 10000,"url": "/app/#/participa/proyecto3"}
 	   ]
 	  },
 	  {
