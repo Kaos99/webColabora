@@ -68,6 +68,13 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoUrba2/masinfo',{
+                url: "/participa/proyectoUrba2/masinfo",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto2info.html',
+                controller: 'ParticipaUrbanismo.ActionController',
+                controllerAs: 'vm'
+            
+            })
             ;
     }
  
