@@ -3,20 +3,20 @@
  
 angular
     .module('app')
-    .controller('Participa.ActionController', function($scope) {
+    .controller('ParticipaTransporte.ActionController', function($scope) {
 	// .chart - large blob of JSON chart data {{{
 	$scope.chart = 
 	{
 	 "name": "flare",
 	 "children": [
 	  {
-	   "name": "URBANISMO",
+	   "name": "",
 	   "classed": "danger",
 	   "color": "#FF0000",
 	   "children": [
-		{"name": "El Cañaveral", "size": 20000,"url": "/app/#/participa/proyecto1"},
-		{"name": "La Peineta","size": 20000,"url": "/app/#/participa/proyecto2"},
-		{"name": "Live Resort","size": 10000,"url": "/app/#/participa/proyecto3"}
+		{"name": "", "size": 20000, "url":  ""},
+		{"name": "","size": 20000, "url":  ""},
+		{"name": "","size": 10000,"url": ""}
 	   ]
 	  },
 	  {
@@ -28,34 +28,34 @@ angular
 	   ]
 	  },
 	  {
-	   "name": "CULTURA Y DEPORTE",
+	   "name": "",
 	   "children": [
-		{"name": "Proyecto 2", "size": 1759},
-		{"name": "Proyecto 3", "size": 2165},
-		{"name": "Proyecto 5", "size": 3322}
+		{"name": "", "size": 1759},
+		{"name": "", "size": 2165},
+		{"name": "", "size": 3322}
 	   ]
 	  },
 	  {
-	   "name": "SALUD",
+	   "name": "",
 	   "children": [
-		{"name": "Proyecto 1", "size": 6833},
-		{"name": "Proyecto 2", "size": 3732},
-		{"name": "Proyecto 3", "size": 3623}
+		{"name": "", "size": 6833},
+		{"name": "", "size": 3732},
+		{"name": "", "size": 3623}
 		
 	   ]
 	  },
 	  {
-	   "name": "MOVILIDAD",
+	   "name": "",
 	   "children": [
-		{"name": "Proyecto 1", "size": 9116}
+		{"name": "", "size": 9116}
 	   ]
 	  },
 	  {
-	   "name": "EDUCACION",
+	   "name": "",
 	   "children": [
-		{"name": "Proyecto 1", "size": 3082},
-		{"name": "Proyecto 2", "size": 3336},
-		{"name": "Proyecto 4", "size": 5498}
+		{"name": "", "size": 3082},
+		{"name": "", "size": 3336},
+		{"name": "", "size": 5498}
 	   ]
 	  }
 	 ]
