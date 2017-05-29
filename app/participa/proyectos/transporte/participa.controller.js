@@ -24,7 +24,7 @@ angular
 	   "children": [
 		{"name": "Tren Moncloa-Majadahonda", "size": 8010,"url": "/app/#/participa/proyecto4"},
 		{"name": "Metro a El Casar", "size": 5842,"url": "/app/#/participa/proyecto5"},
-		{"name": "Intercambiadores", "size": 5049,"url": "/app/#/participa/proyecto6"}
+		{"name": "Lineas de Bus Expres", "size": 5049,"url": "/app/#/participa/proyecto6"}
 	   ]
 	  },
 	  {

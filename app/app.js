@@ -89,6 +89,20 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoTransporte2',{
+                url: "/participa/proyecto5",
+                templateUrl: 'participa/proyectos/transporte/proyecto5.html',
+                controller: 'ParticipaTransporte.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoTransporte3',{
+                url: "/participa/proyecto6",
+                templateUrl: 'participa/proyectos/transporte/proyecto6.html',
+                controller: 'ParticipaTransporte.ActionController',
+                controllerAs: 'vm'
+            
+            })
             ;
     }
  
