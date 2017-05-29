@@ -68,6 +68,14 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoUrba1/vota',{
+                url: "/participa/proyectoUrba1/vota",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto1vota.html',
+                controller: 'ParticipaUrbanismo.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoUrba2/masinfo',{
                 url: "/participa/proyectoUrba2/masinfo",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto2info.html',
@@ -99,6 +107,27 @@
             .state('participa/proyectoTransporte3',{
                 url: "/participa/proyecto6",
                 templateUrl: 'participa/proyectos/transporte/proyecto6.html',
+                controller: 'ParticipaTransporte.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoTransporte1/masinfo',{
+                url: "/participa/proyectoTransporte1/masinfo",
+                templateUrl: 'participa/proyectos/transporte/proyecto1info.html',
+                controller: 'ParticipaTransporte.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoTransporte2/masinfo',{
+                url: "/participa/proyectoTransporte2/masinfo",
+                templateUrl: 'participa/proyectos/transporte/proyecto2info.html',
+                controller: 'ParticipaTransporte.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoTransporte3/masinfo',{
+                url: "/participa/proyectoTransporte3/masinfo",
+                templateUrl: 'participa/proyectos/transporte/proyecto3info.html',
                 controller: 'ParticipaTransporte.ActionController',
                 controllerAs: 'vm'
             
