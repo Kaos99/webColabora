@@ -38,8 +38,7 @@ angular
 	  {
 	   "name": "",
 	   "children": [
-		{"name": "", "size": 6833},
-		{"name": "", "size": 3732},
+		{"name": "", "size": 9833},
 		{"name": "", "size": 3623}
 		
 	   ]

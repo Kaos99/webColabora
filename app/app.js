@@ -132,6 +132,62 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoCulDepor1',{
+                url: "/participa/proyecto7",
+                templateUrl: 'participa/proyectos/culdepor/proyecto7.html',
+                controller: 'ParticipaCulDepor.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoCulDepor1/masinfo',{
+                url: "/participa/proyectoCulDepor1/masinfo",
+                templateUrl: 'participa/proyectos/culdepor/proyecto1info.html',
+                controller: 'ParticipaCulDepor.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoCulDepor2',{
+                url: "/participa/proyecto8",
+                templateUrl: 'participa/proyectos/culdepor/proyecto8.html',
+                controller: 'ParticipaCulDepor.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoCulDepor2/masinfo',{
+                url: "/participa/proyectoCulDepor2/masinfo",
+                templateUrl: 'participa/proyectos/culdepor/proyecto2info.html',
+                controller: 'ParticipaCulDepor.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoCulDepor3',{
+                url: "/participa/proyecto9",
+                templateUrl: 'participa/proyectos/culdepor/proyecto9.html',
+                controller: 'ParticipaCulDepor.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoCulDepor3/masinfo',{
+                url: "/participa/proyectoCulDepor3/masinfo",
+                templateUrl: 'participa/proyectos/culdepor/proyecto3info.html',
+                controller: 'ParticipaCulDepor.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoSalud1',{
+                url: "/participa/proyecto10",
+                templateUrl: 'participa/proyectos/salud/proyecto10.html',
+                controller: 'ParticipaSalud.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoSalud1/masinfo',{
+                url: "/participa/proyectoSalud1/masinfo",
+                templateUrl: 'participa/proyectos/salud/proyecto1info.html',
+                controller: 'ParticipaSalud.ActionController',
+                controllerAs: 'vm'
+            
+            })
             ;
     }
  

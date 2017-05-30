@@ -30,17 +30,16 @@ angular
 	  {
 	   "name": "CULTURA Y DEPORTE",
 	   "children": [
-		{"name": "Proyecto 2", "size": 1759},
-		{"name": "Proyecto 3", "size": 2165},
-		{"name": "Proyecto 5", "size": 3322}
+		{"name": "Patios Escolares", "size": 1759,"url": "/app/#/participa/proyecto7"},
+		{"name": "América en España: los lazos comunes", "size": 2165,"url": "/app/#/participa/proyecto8"},
+		{"name": "Madrid se Mueve", "size": 3322,"url": "/app/#/participa/proyecto9"}
 	   ]
 	  },
 	  {
 	   "name": "SALUD",
 	   "children": [
-		{"name": "Proyecto 1", "size": 6833},
-		{"name": "Proyecto 2", "size": 3732},
-		{"name": "Proyecto 3", "size": 3623}
+		{"name": "Madrid sin exclusión social", "size": 9833,"url": "/app/#/participa/proyecto10"},
+		{"name": "Proyecto 2", "size": 3623,"url": "/app/#/participa/proyecto11"}
 		
 	   ]
 	  },
