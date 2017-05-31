@@ -3,7 +3,7 @@
  
 angular
     .module('app')
-    .controller('ParticipaSalud.ActionController', function($scope) {
+    .controller('ParticipaCulDepor.ActionController', function($scope) {
 	// .chart - large blob of JSON chart data {{{
 	$scope.chart = 
 	{
@@ -28,18 +28,18 @@ angular
 	   ]
 	  },
 	  {
-	   "name": "",
+	   "name": "CULTURA Y DEPORTE",
 	   "children": [
-		{"name": "", "size": 1759,"url": ""},
-		{"name": "", "size": 2165,"url": ""},
-		{"name": "", "size": 3322,"url": ""}
+		{"name": "Patios Escolares", "size": 1759,"url": "/app/#/participa/proyecto7"},
+		{"name": "América en España: los lazos comunes", "size": 2165,"url": "/app/#/participa/proyecto8"},
+		{"name": "Madrid se Mueve", "size": 3322,"url": "/app/#/participa/proyecto9"}
 	   ]
 	  },
 	  {
-	   "name": "SALUD",
+	   "name": "",
 	   "children": [
-		{"name": "Madrid sin exclusión social", "size": 9833,"url": "/app/#/participa/proyecto10"},
-		{"name": "Centro de salud de Valdemoro", "size": 3623,"url": "/app/#/participa/proyecto11"}
+		{"name": "", "size": 9833},
+		{"name": "", "size": 3623}
 		
 	   ]
 	  },

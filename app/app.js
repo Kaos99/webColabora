@@ -188,6 +188,34 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoSalud2',{
+                url: "/participa/proyecto11",
+                templateUrl: 'participa/proyectos/salud/proyecto11.html',
+                controller: 'ParticipaSalud.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoSalud2/masinfo',{
+                url: "/participa/proyectoSalud2/masinfo",
+                templateUrl: 'participa/proyectos/salud/proyecto2info.html',
+                controller: 'ParticipaSalud.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoMovilidad1',{
+                url: "/participa/proyecto12",
+                templateUrl: 'participa/proyectos/movilidad/proyecto12.html',
+                controller: 'ParticipaMovilidad.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoMovilidad1/masinfo',{
+                url: "/participa/proyectoMovilidad1/masinfo",
+                templateUrl: 'participa/proyectos/movilidad/proyecto1info.html',
+                controller: 'ParticipaMovilidad.ActionController',
+                controllerAs: 'vm'
+            
+            })
             ;
     }
  

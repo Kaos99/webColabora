@@ -39,14 +39,14 @@ angular
 	   "name": "SALUD",
 	   "children": [
 		{"name": "Madrid sin exclusión social", "size": 9833,"url": "/app/#/participa/proyecto10"},
-		{"name": "Proyecto 2", "size": 3623,"url": "/app/#/participa/proyecto11"}
+		{"name": "Centro de salud de Valdemoro", "size": 3623,"url": "/app/#/participa/proyecto11"}
 		
 	   ]
 	  },
 	  {
 	   "name": "MOVILIDAD",
 	   "children": [
-		{"name": "Proyecto 1", "size": 9116}
+		{"name": "Proyecto 1", "size": 9116,"url": "/app/#/participa/proyecto12"}
 	   ]
 	  },
 	  {
