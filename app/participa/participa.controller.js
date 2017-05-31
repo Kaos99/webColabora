@@ -46,7 +46,7 @@ angular
 	  {
 	   "name": "MOVILIDAD",
 	   "children": [
-		{"name": "Proyecto 1", "size": 9116,"url": "/app/#/participa/proyecto12"}
+		{"name": "Movilidad Accesible: SIMON", "size": 9116,"url": "/app/#/participa/proyecto12"}
 	   ]
 	  },
 	  {

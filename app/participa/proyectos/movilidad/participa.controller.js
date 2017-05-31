@@ -3,7 +3,7 @@
  
 angular
     .module('app')
-    .controller('ParticipaCulDepor.ActionController', function($scope) {
+    .controller('ParticipaMovilidad.ActionController', function($scope) {
 	// .chart - large blob of JSON chart data {{{
 	$scope.chart = 
 	{
@@ -28,11 +28,11 @@ angular
 	   ]
 	  },
 	  {
-	   "name": "CULTURA Y DEPORTE",
+	   "name": "",
 	   "children": [
-		{"name": "Patios Escolares", "size": 1759,"url": "/app/#/participa/proyecto7"},
-		{"name": "América en España: los lazos comunes", "size": 2165,"url": "/app/#/participa/proyecto8"},
-		{"name": "Madrid se Mueve", "size": 3322,"url": "/app/#/participa/proyecto9"}
+		{"name": "", "size": 1759,"url": ""},
+		{"name": "", "size": 2165,"url": ""},
+		{"name": "", "size": 3322,"url": ""}
 	   ]
 	  },
 	  {
@@ -44,9 +44,9 @@ angular
 	   ]
 	  },
 	  {
-	   "name": "",
+	   "name": "MOVILIDAD",
 	   "children": [
-		{"name": "", "size": 9116}
+		{"name": "Movilidad Accesible: SIMON", "size": 9116,"url": "/app/#/participa/proyecto12"}
 	   ]
 	  },
 	  {
