@@ -1,0 +1,116 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+    <!-- Custom CSS -->
+    <link href="app-content/css/landing_page.css" rel="stylesheet">
+    <link href="app-content/css/infoproyecto.css" rel="stylesheet">
+    <link href="app-content/css/angular-d3-sunburst.css" rel="stylesheet">
+
+    <style>
+        .node circle {
+        cursor: pointer;
+        stroke: #3182bd;
+        stroke-width: 1.5px;
+        }
+
+        .node text {
+        font: 10px sans-serif;
+        pointer-events: none;
+        text-anchor: middle;
+        }
+    </style>
+    
+  
+</head>
+
+<body>
+    <div class="intro-participa">
+        <div class="container">
+            <h3 class="area">Áreas</h3>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div sunburst="chart" tooltip="tooltipFunc"></div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-offset-3">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <span class="porcentaje">50%</span>
+                                </div>
+                            </div>
+                            <div class="row separacion-fila">
+                                <div class="col-lg-2">
+                                    <span class="fecha-rango1">1/10/2016</span>
+                                </div>
+                                <div class="col-lg-4 rango-rojo">
+                                    
+                                </div>
+                                <div class="col-lg-4 rango-gris">
+                                    
+                                </div>
+                                <div class="col-lg-2">
+                                    <span class="fecha-rango2">31/12/2016</span>
+                                </div>
+                                
+                            </div>
+                        
+                        
+                        </div>
+                    </div> <!-- fin del primer row -->
+                    
+                    
+                    
+                    <div class="row">         
+                        <div class="col-lg-9 col-md-offset-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">Alavida: Espacio para crecer</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <div>    
+                                    <h5 class="h5-urbanismo">Descripción:</h5>
+                                    <p class="informacion-proyecto">Proyecto basado en la reunion familiar, dirigidos por especialistas y psicólogos de familia, explicando cual es la mejor forma de orientar a nuestras hijos para que se conozcan asimismos y generen autoconfianza en una edad de la adolescencia muy compleja para los padres .</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h5 class="h5-urbanismo">Otras áreas implicadas</h5>
+                                        <div class="enlinea"><p><span>Bienestar Social</span></p></div>
+                                        <div class="enlinea"><p><span>Cultura y Deporte</span></p></div>
+                                    </div>
+                                    
+                                    <div>
+                                        <h5 class="h5-urbanismo">Objetivos estratégicos</h5>
+                                        <div class="text-objetivos"><p><span>(9) Promover la unidad familiar en hogares no tan comunicativos </span></p></div>
+                                        <div class="text-objetivos"><p><span>(7) Mejorar la educación en los adolescentes evitando el abandono escolar.</span></p></div>
+                                    </div>
+                                </div>
+                            </div>           
+                            
+                        </div>                   
+                    </div> <!--fin del segundo row -->
+                    
+                    <div class="row">
+                        <div class="col-lg-3 col-md-offset-3">
+                            <a href="#/participa/proyectoEducacion2/masinfo" class="btn btn-primary btn-lg masinfo" role="button"><img class="img-mas" src="app-content/img/participa/mas.png" alt="Vota"/>Info</a>
+                        
+                        </div>
+                        <div class="col-lg-3 div-vota">      
+                            <a href="#2" class="btn btn-primary btn-lg vota" role="button"><img class="img-voto" src="app-content/img/participa/vota.png" alt="Vota"/>Vota</a>
+                        </div>
+                        <div class="col-lg-3 div-deli">
+                            <a href="#3" class="btn btn-primary btn-lg delibera" role="button"><img class="img-lupa" src="app-content/img/participa/lupa.png" alt="delibera"/>Delibera</a>          
+                        </div>
+                    </div> <!-- fin del tercer row -->
+                    
+                </div>
+            
+            </div>
+                         
+        </div>   
+    </div>
+     
+</body>
+            
+</html>      
+        

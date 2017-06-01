@@ -253,7 +253,7 @@
             })
             .state('participa/proyectoEducacion3/masinfo',{
                 url: "/participa/proyectoEducacion3/masinfo",
-                templateUrl: 'participa/proyectos/educacion/proyecto1info.html',
+                templateUrl: 'participa/proyectos/educacion/proyecto3info.html',
                 controller: 'ParticipaEducacion.ActionController',
                 controllerAs: 'vm'
             
