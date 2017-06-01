@@ -164,15 +164,30 @@ angular.module('angular-d3-sunburst', [])
 			$scope.hue;
 			$scope.luminance;
 			$scope.tooltip;
+            
 
 			$scope.initBuild = function() {
-				//$scope.hue = d3.scale.category10();
+				//$scope.hue = d3.scale.google.10c();
+                $scope.hue = d3.scaleOrdinal(d3.schemePastel1);
                 
-                $scope.hue = d3.scale.ordinal()
-                //.range(["#2879d8","#f04c41","#AAA6A6","#0C38B2","#6FA1FF","#bbbbbb","#3467AE"]);
+                //$scope.hue = d3.scale.ordinal()
                 
-                .domain(["URBANISMO", "TRANSPORTE", "CULTURA Y DEPORTE","SALUD","MOVILIDAD","EDUCACION"])
-                .range(["#f04c41", "#ecf0f1","#0f98d8","#b2defb","#0580b6","#2879d8"]);
+                
+                
+                 //$scope.hue= d3.scaleThreshold()
+                //.domain(["URBANISMO", "TRANSPORTE", "CULTURA","SALUD","MOVILIDAD","EDUCACION"])
+                //.domain([0,5])
+                //.range(["#f04c41", "#ecf0f1","#0f91f8","#1673A6","#2A6280","#2879d8"]);
+                
+                /**
+                $scope.hue = {
+                    "URBANISMO": "#f04c41",
+            "TRANSPORTE": "#ecf0f1",
+            "CULTURA Y DEPORTE": "#0f91f8",
+            "SALUD": "#1673A6",
+            "MOVILIDAD": "#2A6280",
+            "EDUCACION": "#2879d8"
+                } */
 
 				$scope.luminance = d3.scale.sqrt()
 					.domain([0, 1e6])
