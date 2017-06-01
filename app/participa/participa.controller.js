@@ -52,9 +52,9 @@ angular
 	  {
 	   "name": "EDUCACION",
 	   "children": [
-		{"name": "Proyecto 1", "size": 3082},
-		{"name": "Proyecto 2", "size": 3336},
-		{"name": "Proyecto 4", "size": 5498}
+		{"name": "Educación para el desarrollo sostenible", "size": 3082,"url": "/app/#/participa/proyecto13"},
+		{"name": "Proyecto 2", "size": 3336,"url": "/app/#/participa/proyecto14"},
+		{"name": "Proyecto 4", "size": 5498,"url": "/app/#/participa/proyecto15"}
 	   ]
 	  }
 	 ]

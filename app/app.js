@@ -216,6 +216,48 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoEducacion1',{
+                url: "/participa/proyecto13",
+                templateUrl: 'participa/proyectos/educacion/proyecto13.html',
+                controller: 'ParticipaEducacion.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoEducacion1/masinfo',{
+                url: "/participa/proyectoEducacion1/masinfo",
+                templateUrl: 'participa/proyectos/educacion/proyecto1info.html',
+                controller: 'ParticipaEducacion.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoEducacion2',{
+                url: "/participa/proyecto14",
+                templateUrl: 'participa/proyectos/educacion/proyecto14.html',
+                controller: 'ParticipaEducacion.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoEducacion2/masinfo',{
+                url: "/participa/proyectoEducacion2/masinfo",
+                templateUrl: 'participa/proyectos/educacion/proyecto2info.html',
+                controller: 'ParticipaEducacion.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoEducacion3',{
+                url: "/participa/proyecto15",
+                templateUrl: 'participa/proyectos/educacion/proyecto15.html',
+                controller: 'ParticipaEducacion.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoEducacion3/masinfo',{
+                url: "/participa/proyectoEducacion3/masinfo",
+                templateUrl: 'participa/proyectos/educacion/proyecto1info.html',
+                controller: 'ParticipaEducacion.ActionController',
+                controllerAs: 'vm'
+            
+            })
             ;
     }
  
