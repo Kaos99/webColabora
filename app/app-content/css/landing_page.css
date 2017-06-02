@@ -26,6 +26,8 @@ h6 {
 h3.area{
     color: #2E2D2D;
     padding-top: 28px;
+    position: relative;
+    top: 30px;
 }
 
 .topnav {
@@ -196,3 +198,39 @@ p.copyright {
 div.ng-isolate-scope.d3-tooltip.size {
     /* margin-bottom: 56px; */
     margin-top: -140px;
+}
+
+div.col-xs-1.area-color1{
+    height:15px;
+    background-color:rgb(160, 186, 208);
+}
+
+div.col-xs-1.area-color2{
+    height:15px;
+    background-color: rgb(177, 208, 171);
+}
+
+div.col-xs-1.area-color3{
+    height:15px;
+    background-color: rgb(222, 203, 228);
+}
+
+div.col-xs-1.area-color4{
+    height:15px;
+    background-color: rgb(234, 198, 148);
+}
+
+div.col-xs-1.area-color5{
+    height:15px;
+    background-color: rgb(210, 211, 161);
+}
+
+div.col-xs-1.area-color6{
+    height:15px;
+    background-color: rgb(217, 204, 177);
+}
+
+div.row.espacio{
+    position: relative;
+    top: 50px;
+}
