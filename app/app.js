@@ -2,7 +2,7 @@
     'use strict';
  
     angular
-        .module('app', ['ui.router','angular-d3-sunburst'])
+        .module('app', ['ui.router','angular-d3-sunburst','ui.gauge'])
         .config(config)
         .run(run);
  
@@ -71,7 +71,7 @@
             .state('participa/proyectoUrba1/vota',{
                 url: "/participa/proyectoUrba1/vota",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto1vota.html',
-                controller: 'ParticipaUrbanismo.ActionController',
+                controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
             
             })
@@ -83,6 +83,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoUrba2/vota',{
+                url: "/participa/proyectoUrba2/vota",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto2vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoUrba3/masinfo',{
                 url: "/participa/proyectoUrba3/masinfo",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto3info.html',
@@ -90,6 +99,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoUrba3/vota',{
+                url: "/participa/proyectoUrba3/vota",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto3vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoTransporte1',{
                 url: "/participa/proyecto4",
                 templateUrl: 'participa/proyectos/transporte/proyecto4.html',
@@ -118,6 +136,14 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoTransporte1/vota',{
+                url: "/participa/proyectoTransporte1/vota",
+                templateUrl: 'participa/proyectos/transporte/proyecto1vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
             .state('participa/proyectoTransporte2/masinfo',{
                 url: "/participa/proyectoTransporte2/masinfo",
                 templateUrl: 'participa/proyectos/transporte/proyecto2info.html',
@@ -125,6 +151,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoTransporte2/vota',{
+                url: "/participa/proyectoTransporte2/vota",
+                templateUrl: 'participa/proyectos/transporte/proyecto2vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoTransporte3/masinfo',{
                 url: "/participa/proyectoTransporte3/masinfo",
                 templateUrl: 'participa/proyectos/transporte/proyecto3info.html',
@@ -132,6 +167,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoTransporte3/vota',{
+                url: "/participa/proyectoTransporte3/vota",
+                templateUrl: 'participa/proyectos/transporte/proyecto3vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoCulDepor1',{
                 url: "/participa/proyecto7",
                 templateUrl: 'participa/proyectos/culdepor/proyecto7.html',

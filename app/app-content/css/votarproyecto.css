@@ -28,3 +28,71 @@ div.col-xs-1.verticalLine{
     border-right: thick solid #000000;
     border-right-style: dashed;**/
 }
+
+div.col-xs-8.bar{
+    height: 50px !important;
+}
+
+svg{
+    position: relative;
+    bottom: 390px;
+    height:460px !important;
+    width: 810px !important;
+}
+
+div.col-xs-1.area-color-afavor{
+    height:15px;
+    background-color:#f04c41;
+}
+
+div.col-xs-1.area-color-nodecide{
+    height:15px;
+    background-color: #b2defb;
+}
+
+div.col-xs-1.area-color-encontra{
+    height:15px;
+    background-color: #445461;
+}
+
+img.img-good{
+    width: 35px;
+    height: 35px;
+}
+img.img-bad{
+    width: 35px;
+    height: 35px;
+}
+img.img-minus{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: 5px;
+}
+
+a.btn.btn-primary.btn-lg.afavor{
+    background-color: #f04c41 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    inline-size: 132px;
+    position: relative;
+    left: 86px;
+}
+a.btn.btn-primary.btn-lg.nodecide{
+    background-color: #b2defb  !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;    
+    inline-size: 146px;
+    color:#666666 !important;
+    position: relative;
+    right: 60px;
+}
+a.btn.btn-primary.btn-lg.encontra{
+    background-color: #445461 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    color: white !important;
+    inline-size: 145px;
+    position: relative;
+    right: 207px;
+}
