@@ -1,0 +1,81 @@
+span.titulo{
+  font-size: 1.7em;  
+}
+
+div.col-xs-2.areas {
+  
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding-left: 0px !important;
+}
+
+div.col-xs-3.titulo-area{
+    border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 1px solid #000000;
+    padding-left: 15px !important;
+}
+
+div.row.seccion-proyecto{
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 0.5px;
+}
+div.col-xs-2.seccion-info-proyecto1{
+    height: 40px;
+    background-color: #eee;
+}
+div.col-xs-6.seccion-info-proyecto2{
+  border-width: 1.5px;  
+  border-right-style: solid;
+  border-left-style: solid;
+}
+div.col-xs-2.seccion-info-proyecto4{
+  border-width: 1.5px;  
+  border-right-style: solid;
+  border-left-style: solid;
+  height: 40px;
+}
+span.medio{
+    position:relative;
+    top: 10px;
+}
+a.medio{
+    position:relative;
+    top: 10px;
+}
+span.medio-confirmada{
+    position:relative;
+    top: 10px;
+    color:#b2defb;
+}
+a.medio-confirmada{
+    position:relative;
+    top: 10px;
+    color:#b2defb;
+}
+span.text-fecha{
+    font-size: 0.8em;
+}
+a.medio-confirmada:link   
+{   
+ text-decoration:none;   
+}
+span.medio-noconfirmada{
+    position:relative;
+    top: 10px;
+    color:#f04c41;
+}
+a.medio-noconfirmada{
+    position:relative;
+    top: 10px;
+    color:#f04c41;
+}
+a.medio-noconfirmada:link   
+{   
+ text-decoration:none;   
+}
