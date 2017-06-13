@@ -79,3 +79,8 @@ a.medio-noconfirmada:link
 {   
  text-decoration:none;   
 }
+
+div.col-xs-3.seccion-info-proyecto1{
+    height: 40px;
+    background-color: #eee;
+}

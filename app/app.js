@@ -41,7 +41,66 @@
                 url: "/seguimiento",
                 templateUrl: 'seguimiento/seguimiento.html'
             })
-        
+            .state('decision/proyecto1', {
+                url: "/decision/proyecto1",
+                templateUrl: 'decisiones/decision.proyecto1.html'
+            })
+            .state('decision/proyecto2', {
+                url: "/decision/proyecto2",
+                templateUrl: 'decisiones/decision.proyecto2.html'
+            })
+            .state('decision/proyecto3', {
+                url: "/decision/proyecto3",
+                templateUrl: 'decisiones/decision.proyecto3.html'
+            })
+            .state('decision/proyecto4', {
+                url: "/decision/proyecto4",
+                templateUrl: 'decisiones/decision.proyecto4.html'
+            })
+            .state('decision/proyecto5', {
+                url: "/decision/proyecto5",
+                templateUrl: 'decisiones/decision.proyecto5.html'
+            })
+            .state('decision/proyecto6', {
+                url: "/decision/proyecto6",
+                templateUrl: 'decisiones/decision.proyecto6.html'
+            })
+            .state('decision/proyecto7', {
+                url: "/decision/proyecto7",
+                templateUrl: 'decisiones/decision.proyecto7.html'
+            })
+            .state('decision/proyecto8', {
+                url: "/decision/proyecto8",
+                templateUrl: 'decisiones/decision.proyecto8.html'
+            })
+            .state('decision/proyecto9', {
+                url: "/decision/proyecto9",
+                templateUrl: 'decisiones/decision.proyecto9.html'
+            })
+            .state('decision/proyecto10', {
+                url: "/decision/proyecto10",
+                templateUrl: 'decisiones/decision.proyecto10.html'
+            })
+            .state('decision/proyecto11', {
+                url: "/decision/proyecto11",
+                templateUrl: 'decisiones/decision.proyecto11.html'
+            })
+            .state('decision/proyecto12', {
+                url: "/decision/proyecto12",
+                templateUrl: 'decisiones/decision.proyecto12.html'
+            })
+            .state('decision/proyecto13', {
+                url: "/decision/proyecto13",
+                templateUrl: 'decisiones/decision.proyecto13.html'
+            })
+            .state('decision/proyecto14', {
+                url: "/decision/proyecto14",
+                templateUrl: 'decisiones/decision.proyecto14.html'
+            })
+            .state('decision/proyecto15', {
+                url: "/decision/proyecto15",
+                templateUrl: 'decisiones/decision.proyecto15.html'
+            })
             .state('participa/proyectoUrba1', {
                 url: "/participa/proyecto1",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto1.html',
