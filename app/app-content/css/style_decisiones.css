@@ -84,3 +84,83 @@ div.col-xs-3.seccion-info-proyecto1{
     height: 40px;
     background-color: #eee;
 }
+
+/* Info decisiones */
+div.row.seccion-info-proyecto{
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-width: 0.5px;
+}
+
+div.col-xs-3.imagen{
+  border-width: 1.5px;  
+  border-right-style: solid;
+  height: 400px;
+}
+
+div.col-xs-6.seccion-info-proyecto{
+  border-width: 1.5px;  
+  border-right-style: solid;
+  height: 400px;
+}
+div.row.seccion-info-fila-primera{
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    height:80px;
+}
+div.row.seccion-info-fila-segunda{
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    height:40px;
+}
+div.row.seccion-info-fila-tercera{
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    height:110px;
+}
+div.row.seccion-info-fila-cuarto{
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    height:50px;
+}
+div.row.seccion-info-fila-quinto{
+    height:120px;
+}
+
+span.tipo-letra{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    position:relative;
+    top:10px;
+}
+
+span.position-letra1{
+    position:relative;
+    top:30px;
+}
+span.position-letra2{
+    position:relative;
+    top:10px;
+}
+span.position-letra3{
+    position:relative;
+    top:45px;
+}
+span.position-letra4{
+    position:relative;
+    top:15px;
+}
+span.position-letra5{
+    position:relative;
+    top:20px;
+}
+span.position-tipo-letra5{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    position:relative;
+    top:30px;
+}
