@@ -164,3 +164,131 @@ span.position-tipo-letra5{
     position:relative;
     top:30px;
 }
+
+/* 80% */
+div.col-xs-6.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:13px;
+}
+
+div.col-xs-2.rango-azul{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+}
+
+/* 60-70 % */
+div.col-xs-5.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:22px;
+}
+
+div.col-xs-3.rango-azul{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+}
+
+span.tipo-letra-porcentaje{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    position:relative;
+    top:20px;
+}
+
+/* 90% */
+div.col-xs-7.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:32px;
+}
+
+div.col-xs-1.rango-azul{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:32px;
+    padding-right: 0px !important;
+}
+span.tipo-letra-porcentaje1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    position:relative;
+    top:30px;
+}
+span.porcentaje-numero{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    position:relative;
+    right:15px;   
+}
+img.img-responsive{
+    position: relative;
+    top:15px;
+}
+
+/* NO CONFIRMADA */
+span.medio-noconfirmada{
+    position:relative;
+    top: 10px;
+    color:#f04c41;
+}
+div.row.seccion-info-fila-primera-nodecide{
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    height:230px;
+}
+
+div.col-xs-2.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:15px;
+}
+div.col-xs-6.rango-azul{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:15px;
+}
+div.col-xs-1.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:20px;
+    padding-right: 0px !important;
+}
+div.col-xs-7.rango-azul{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:20px;   
+}
+div.col-xs-4.rango-rojo{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:32px;
+}
+div.col-xs-4.rango-azul{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:32px;
+}
