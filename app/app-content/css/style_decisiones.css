@@ -292,3 +292,16 @@ div.col-xs-4.rango-azul{
     position:relative;
     top:32px;
 }
+
+div.col-xs-4.rango-rojo.confirmado{
+    height:15px;
+    background-color: #f04c41 !important;
+    position:relative;
+    top:22px;
+}
+div.col-xs-4.rango-azul.confirmado{
+    height:15px;
+    background-color: #b2defb !important;
+    position:relative;
+    top:22px;
+}
