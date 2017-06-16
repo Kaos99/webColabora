@@ -41,6 +41,31 @@
                 url: "/seguimiento",
                 templateUrl: 'seguimiento/seguimiento.html'
             })
+            .state('seguimiento/urbanismo', {
+                url: "/seguimiento/urbanismo",
+                templateUrl: 'seguimiento/urbanismo/seguimiento.urbanismo.html'
+            })
+            .state('seguimiento/transporte', {
+                url: "/seguimiento/transporte",
+                templateUrl: 'seguimiento/transporte/seguimiento.transporte.html'
+            })
+            .state('seguimiento/culdepor', {
+                url: "/seguimiento/culdepor",
+                templateUrl: 'seguimiento/culdepor/seguimiento.culdepor.html'
+            })
+            .state('seguimiento/salud', {
+                url: "/seguimiento/salud",
+                templateUrl: 'seguimiento/salud/seguimiento.salud.html'
+            })
+            .state('seguimiento/movilidad', {
+                url: "/seguimiento/movilidad",
+                templateUrl: 'seguimiento/movilidad/seguimiento.movilidad.html'
+            })
+            .state('seguimiento/educacion', {
+                url: "/seguimiento/educacion",
+                templateUrl: 'seguimiento/educacion/seguimiento.educacion.html'
+            })
+        
             .state('decision/proyecto1', {
                 url: "/decision/proyecto1",
                 templateUrl: 'decisiones/decision.proyecto1.html'
