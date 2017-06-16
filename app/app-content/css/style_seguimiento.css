@@ -34,7 +34,11 @@ div.col-xs-2.areas1 {
   border-width: 1px;
   padding-left: 0px !important;
 }
-
+div.col-xs-3.areas1{
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding-left: 0px !important;
+}
 div.col-xs-4.primera-columna-100{
     height:190px;
     background-color: #f04c41 !important;
