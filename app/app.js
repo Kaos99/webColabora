@@ -159,6 +159,13 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoUrba1/delibera',{
+                url: "/participa/proyectoUrba1/delibera",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto1delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
         
             .state('participa/proyectoUrba2/masinfo',{
                 url: "/participa/proyectoUrba2/masinfo",
@@ -176,6 +183,14 @@
             
             })
         
+            .state('participa/proyectoUrba2/delibera',{
+                url: "/participa/proyectoUrba2/delibera",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto2delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoUrba3/masinfo',{
                 url: "/participa/proyectoUrba3/masinfo",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto3info.html',
@@ -187,6 +202,14 @@
             .state('participa/proyectoUrba3/vota',{
                 url: "/participa/proyectoUrba3/vota",
                 templateUrl: 'participa/proyectos/urbanismo/proyecto3vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
+            .state('participa/proyectoUrba3/delibera',{
+                url: "/participa/proyectoUrba3/delibera",
+                templateUrl: 'participa/proyectos/urbanismo/proyecto3delibera.html',
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
             
@@ -226,8 +249,15 @@
                 templateUrl: 'participa/proyectos/transporte/proyecto1vota.html',
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
-            
             })
+        
+            .state('participa/proyectoTransporte1/delibera',{
+                url: "/participa/proyectoTransporte1/delibera",
+                templateUrl: 'participa/proyectos/transporte/proyecto1delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm' 
+            })
+        
             .state('participa/proyectoTransporte2/masinfo',{
                 url: "/participa/proyectoTransporte2/masinfo",
                 templateUrl: 'participa/proyectos/transporte/proyecto2info.html',
@@ -244,6 +274,13 @@
             
             })
         
+            .state('participa/proyectoTransporte2/delibera',{
+                url: "/participa/proyectoTransporte2/delibera",
+                templateUrl: 'participa/proyectos/transporte/proyecto2delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm' 
+            })
+        
             .state('participa/proyectoTransporte3/masinfo',{
                 url: "/participa/proyectoTransporte3/masinfo",
                 templateUrl: 'participa/proyectos/transporte/proyecto3info.html',
@@ -258,6 +295,13 @@
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
             
+            })
+        
+            .state('participa/proyectoTransporte3/delibera',{
+                url: "/participa/proyectoTransporte3/delibera",
+                templateUrl: 'participa/proyectos/transporte/proyecto3delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm' 
             })
         
             .state('participa/proyectoCulDepor1',{
@@ -282,6 +326,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoCulDepor1/delibera',{
+                url: "/participa/proyectoCulDepor1/delibera",
+                templateUrl: 'participa/proyectos/culdepor/proyecto1delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoCulDepor2',{
                 url: "/participa/proyecto8",
                 templateUrl: 'participa/proyectos/culdepor/proyecto8.html',
@@ -304,6 +357,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoCulDepor2/delibera',{
+                url: "/participa/proyectoCulDepor2/delibera",
+                templateUrl: 'participa/proyectos/culdepor/proyecto2delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoCulDepor3',{
                 url: "/participa/proyecto9",
                 templateUrl: 'participa/proyectos/culdepor/proyecto9.html',
@@ -325,6 +387,15 @@
                 controllerAs: 'vm'
             
             })
+        
+            .state('participa/proyectoCulDepor3/delibera',{
+                url: "/participa/proyectoCulDepor3/delibera",
+                templateUrl: 'participa/proyectos/culdepor/proyecto3delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
             .state('participa/proyectoSalud1',{
                 url: "/participa/proyecto10",
                 templateUrl: 'participa/proyectos/salud/proyecto10.html',
@@ -341,6 +412,14 @@
             .state('participa/proyectoSalud1/vota',{
                 url: "/participa/proyectoSalud1/vota",
                 templateUrl: 'participa/proyectos/salud/proyecto1vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+        
+            .state('participa/proyectoSalud1/delibera',{
+                url: "/participa/proyectoSalud1/delibera",
+                templateUrl: 'participa/proyectos/salud/proyecto1delibera.html',
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
             
@@ -366,6 +445,13 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoSalud2/delibera',{
+                url: "/participa/proyectoSalud2/delibera",
+                templateUrl: 'participa/proyectos/salud/proyecto2delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
             .state('participa/proyectoMovilidad1',{
                 url: "/participa/proyecto12",
                 templateUrl: 'participa/proyectos/movilidad/proyecto12.html',
@@ -383,6 +469,13 @@
             .state('participa/proyectoMovilidad1/vota',{
                 url: "/participa/proyectoMovilidad1/vota",
                 templateUrl: 'participa/proyectos/movilidad/proyecto1vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoMovilidad1/delibera',{
+                url: "/participa/proyectoMovilidad1/delibera",
+                templateUrl: 'participa/proyectos/movilidad/proyecto1delibera.html',
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
             
@@ -408,6 +501,13 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoEducacion1/delibera',{
+                url: "/participa/proyectoEducacion1/delibera",
+                templateUrl: 'participa/proyectos/educacion/proyecto1delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
             .state('participa/proyectoEducacion2',{
                 url: "/participa/proyecto14",
                 templateUrl: 'participa/proyectos/educacion/proyecto14.html',
@@ -429,6 +529,13 @@
                 controllerAs: 'vm'
             
             })
+            .state('participa/proyectoEducacion2/delibera',{
+                url: "/participa/proyectoEducacion2/delibera",
+                templateUrl: 'participa/proyectos/educacion/proyecto2delibera.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
             .state('participa/proyectoEducacion3',{
                 url: "/participa/proyecto15",
                 templateUrl: 'participa/proyectos/educacion/proyecto15.html',
@@ -446,6 +553,13 @@
             .state('participa/proyectoEducacion3/vota',{
                 url: "/participa/proyectoEducacion3/vota",
                 templateUrl: 'participa/proyectos/educacion/proyecto3vota.html',
+                controller: 'GaugeCtrl.ActionController',
+                controllerAs: 'vm'
+            
+            })
+            .state('participa/proyectoEducacion3/delibera',{
+                url: "/participa/proyectoEducacion3/delibera",
+                templateUrl: 'participa/proyectos/educacion/proyecto3delibera.html',
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
             

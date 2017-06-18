@@ -1,0 +1,144 @@
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+    <!-- Custom CSS -->
+    <link href="app-content/css/landing_page.css" rel="stylesheet">
+    <link href="app-content/css/infoproyecto.css" rel="stylesheet">
+    <link href="app-content/css/deliberaproyecto.css" rel="stylesheet">
+    
+  
+</head>
+
+<body>
+
+    
+    <div class="intro-participa">
+        <div class="container">
+            <span style="position: relative;top: 50px;">Urbanismo| Nuevo estadio La Peineta | Deliberar</span>
+            <div class="row" style="margin-top:100px">
+                    <div class="col-xs-6">
+                        <div class="col-xs-3 text-right">
+                            <span>A Favor: 30%</span>
+                        </div>
+                        <div class="col-xs-1 area-color-afavor">
+                        </div>          
+                    
+                    
+                    
+                        <div class="col-xs-3 text-right">
+                            <span>No Decide: 17%</span>
+                        </div>
+                        <div class="col-xs-1 area-color-nodecide">
+                        </div> 
+                    
+                    
+                        <div class="col-xs-3 text-right">
+                            <span>En Contra: 53%</span>
+                        </div>
+                        <div class="col-xs-1 area-color-encontra">
+                        </div> 
+                    
+                    </div>
+                
+            
+            </div>
+            
+            <div class="row linea" style="margin-top:200px;margin-bottom:150px;">
+                <div class="col-xs-2 text-center">
+                    <span>1/10/2016</span>
+                </div>
+                <div class="col-xs-8 bar">
+                    
+         
+                        <ui-gauge options="options"></ui-gauge>
+                        
+
+                </div>
+                
+                <div class="col-xs-2 text-center">
+                    <span>31/12/2016</span>
+                </div>
+            
+            </div>
+            
+            
+            
+                    <!--
+                    <div class="row" style="margin-bottom:150px;">
+                        <div class="col-lg-3 col-md-offset-3">
+                            <a href="#participa/favor" class="btn btn-primary btn-lg afavor" role="button"><img class="img-good" src="app-content/img/participa/good.png" alt="Afavor"/>A favor</a>
+                        
+                        </div>
+                        <div class="col-lg-3 div-vota">      
+                            <a href="#participa/nodecide" class="btn btn-primary btn-lg nodecide" role="button"><img class="img-minus" src="app-content/img/participa/minus.png" alt="Nodecide"/>No decide</a>
+                        </div>
+                        <div class="col-lg-3 div-deli">
+                            <a href="#participa/encontra" class="btn btn-primary btn-lg encontra" role="button"><img class="img-bad" src="app-content/img/participa/bad.png" alt="Encontra"/>En contra</a>            
+                        </div>
+                    </div> -->
+            
+                <!-- cuadro de comentarios -->
+                <div class="row" style="margin-bottom:40px;">
+                    <div class="col-xs-6">
+                        <div id='dv1'>
+                        <form ng-controller="FrmController">
+                            <span class="titulo-arg">Argumentos a favor</span>
+                        <form ng-controller="FrmController">
+                            <div class="row favor">
+                                <div class="col-xs-10">
+                                    <textarea class="input-favor" ng-model="txtcomment"></textarea>
+                                </div>
+                                <div class="col-xs-2 text-center">
+                                    <a href ng-click='btn_add();' class="btn btn-primary btn-xs botonfavor" role="button"><img class="img-coment" src="app-content/img/participa/coment.png" alt="Afavor"/>Enviar</a>
+                                </div>
+                            </div>
+                            <br><br>
+                            <ul class="lista">
+                                <li class="coment">La intención es que el nuevo estadio del Atlético esté a punto para el inicio de la Liga en septiembre.</li>
+                                <li class="coment">Según el comunicado del Consistorio madrileño, el club también se compromete a construir los accesos.</li>
+                                <li class="coment" ng-repeat="comnt in comment">{{ comnt }}</li>
+                        
+                            </ul>
+                        </form>
+                        </form>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="col-xs-6">
+                        <div id='dv1'>
+                        <form ng-controller="FrmController">
+                            <span class="titulo-arg1">Argumentos en contra</span>
+                        <form ng-controller="FrmController">
+                            <div class="row contra">
+                                <div class="col-xs-2 text-center">
+                                    <a href ng-click='btn_add();' class="btn btn-primary btn-xs botoncontra" role="button"><img class="img-coment" src="app-content/img/participa/coment.png" alt="Afavor"/>Enviar</a>
+                                </div>
+                                <div class="col-xs-10">
+                                    <textarea class="input-contra" ng-model="txtcomment"></textarea>
+                                </div>
+                                
+                            </div>
+                            <br><br>
+                            <ul class="lista">
+                                <li class="coment">Las plazas de aparcamiento, al estar en terrenos públicos, no podrán ser de uso privativo para el Atlético de Madrid.</li>
+                                <li class="coment">En diciembre de 2016, el club de fútbol asistió al desencuentro entre el Ayuntamiento y la Comunidad de Madrid por el expediente de cesión del estadio.</li>
+                                <li class="coment" ng-repeat="comnt in comment">{{ comnt }}</li>
+                        
+                            </ul>
+                        </form>
+                        </form>
+                        </div>
+                    </div>
+            
+            
+                </div>
+                         
+        </div>   
+    </div>
+        
+
+</body>
+            
+</html>  

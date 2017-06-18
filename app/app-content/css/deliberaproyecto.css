@@ -1,0 +1,203 @@
+div.col-xs-4.favor{
+    height:25px;
+    background-color: #f04c41 !important;
+    border-radius: 200px 10px 0px 200px;
+    -moz-border-radius: 200px 10px 0px 200px;
+    -webkit-border-radius: 200px 10px 0px 200px;
+}
+
+div.col-xs-2.nodecide{
+    height:25px;
+    background-color: #b2defb !important;
+}
+
+div.col-xs-5.encontra{
+    height:25px;
+    background-color: #445461 !important;
+    border-radius: 0px 200px 200px 0px;
+    -moz-border-radius: 0px 200px 200px 0px;
+    -webkit-border-radius: 0px 200px 200px 0px;
+}
+
+div.col-xs-1.verticalLine{
+    /**
+    border-right: thick solid #000000;
+    border-right-style: dashed;**/
+}
+
+div.col-xs-8.bar{
+    height: 50px !important;
+}
+
+svg{
+    position: relative;
+    bottom: 390px;
+    height:460px !important;
+    width: 810px !important;
+}
+
+div.col-xs-1.area-color-afavor{
+    height:15px;
+    background-color:#f04c41;
+}
+
+div.col-xs-1.area-color-nodecide{
+    height:15px;
+    background-color: #b2defb;
+}
+
+div.col-xs-1.area-color-encontra{
+    height:15px;
+    background-color: #445461;
+}
+
+img.img-good{
+    width: 35px;
+    height: 35px;
+}
+img.img-bad{
+    width: 35px;
+    height: 35px;
+}
+img.img-minus{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: 5px;
+}
+
+img.img-back{
+    width: 35px;
+    height: 35px;
+}
+
+a.btn.btn-primary.btn-lg.afavor{
+    background-color: #f04c41 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    inline-size: 132px;
+    position: relative;
+    left: 86px;
+}
+a.btn.btn-primary.btn-lg.nodecide{
+    background-color: #b2defb  !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;    
+    inline-size: 146px;
+    color:#666666 !important;
+    position: relative;
+    right: 60px;
+}
+a.btn.btn-primary.btn-lg.encontra{
+    background-color: #445461 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    color: white !important;
+    inline-size: 145px;
+    position: relative;
+    right: 207px;
+}
+
+a.btn.btn-primary.btn-lg.volver{
+    background-color: #445461 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    color: white !important;
+    inline-size: 145px;
+    position: relative;
+    right: 1px;
+}
+a.btn.btn-primary.btn-lg.deliberar{
+    background-color: #f04c41 !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    inline-size: 132px;
+    position: relative;
+    left: 1px;
+}
+
+div#dv1{ 
+    border:1px 
+    solid #DBDCE9;  
+    margin-left:auto; 
+    margin-right:auto;  
+    width:550px; 
+    border-radius:7px;   
+    padding: 25px;
+    height: 300px; 
+    overflow-y: scroll;
+
+}
+
+span.titulo-arg{
+    color:#f04c41;
+    margin-bottom: 5px;
+}
+span.titulo-arg1{
+    color:#445461;
+    margin-bottom: 5px;
+}
+
+div.row.favor{
+    position: relative;
+    top: 15px;
+}
+div.row.contra{
+    position: relative;
+    top: 15px;
+}
+
+textarea.input-favor{
+    width: 350px !important;
+    height: 35px !important;
+    border: 2px solid #f04c41 !important;
+    font-size:13px;
+}
+
+textarea.input-contra{
+    width: 350px !important;
+    height: 35px !important;
+    border: 2px solid #445461 !important;
+    font-size:13px;
+}
+
+a.btn.btn-primary.btn-xs.botonfavor{
+    position: relative;
+    right: 35px;
+    background-color: #f04c41 !important;
+    border-color: #f04c41;
+    border-radius: 0px !important;
+}
+
+a.btn.btn-primary.btn-xs.botoncontra{
+    position: relative;
+    right: 5px;
+    background-color: #445461 !important;
+    border-color: #445461;
+    border-radius: 0px !important;
+}
+
+img.img-coment{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    right: 5px;
+}
+
+ul.lista {
+     list-style-type: none;  
+     margin: 0;padding: 0;
+}
+li.coment {
+    font: 200 15px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+li.coment:last-child {
+    border: none;
+}
+li.coment a {
+    text-decoration: none; 
+    color: #000; 
+    display: block;
+}
