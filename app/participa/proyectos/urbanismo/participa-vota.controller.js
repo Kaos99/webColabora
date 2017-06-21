@@ -4,7 +4,7 @@
 angular
     .module('app')
     .controller('GaugeCtrl.ActionController', function($scope) {
-	// .chart - large blob of JSON chart data {{{
+	
 	$scope.unit = 100;
     $scope.minorUnit = 1;
     $scope.majorUnit = 10;
