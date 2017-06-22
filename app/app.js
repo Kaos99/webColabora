@@ -2,7 +2,7 @@
     'use strict';
  
     angular
-        .module('app', ['ui.router','angular-d3-sunburst','ui.gauge'])
+        .module('app', ['ui.router','angular-d3-sunburst','ui.gauge','duScroll'])
         .config(config)
         .run(run);
  
@@ -583,6 +583,43 @@
                 templateUrl: 'participa/resultados/votacionOK.html',
                 controller: 'GaugeCtrl.ActionController',
                 controllerAs: 'vm'
+            
+            })
+        
+            .state('section-1', {
+                url: "/section-1",
+                templateUrl: 'footer/footer.html',
+                controller: 'section.FooterController',
+                controllerAs: 'vm',
+            
+            })
+        
+            .state('section-2', {
+                url: "/section-2",
+                templateUrl: 'footer/footer.html',
+                controller: 'section.FooterController',
+                controllerAs: 'vm',
+            
+            })
+            .state('section-3', {
+                url: "/section-3",
+                templateUrl: 'footer/footer.html',
+                controller: 'section.FooterController',
+                controllerAs: 'vm',
+            
+            })
+            .state('section-4', {
+                url: "/section-4",
+                templateUrl: 'footer/footer.html',
+                controller: 'section.FooterController',
+                controllerAs: 'vm',
+            
+            })
+            .state('section-5', {
+                url: "/section-5",
+                templateUrl: 'footer/footer.html',
+                controller: 'section.FooterController',
+                controllerAs: 'vm',
             
             })
             ;
