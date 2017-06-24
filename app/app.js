@@ -4,8 +4,9 @@
     angular
         .module('app', ['ui.router','angular-d3-sunburst','ui.gauge','duScroll'])
         .config(config)
-        .run(run);
+        .run(run)   
  
+    
     function config($stateProvider, $urlRouterProvider) {
         // default route
         $urlRouterProvider.otherwise("/");
@@ -621,6 +622,15 @@
                 controller: 'section.FooterController',
                 controllerAs: 'vm',
             
+            })
+        
+            .state('tecnico/home', {
+                url: "/tecnico/home",
+                templateUrl: 'tecnico/index.html'
+            })
+            .state('tecnico/proyecto1', {
+                url: "/tecnico/proyecto1",
+                templateUrl: 'tecnico/proyecto1.html'
             })
             ;
     }
