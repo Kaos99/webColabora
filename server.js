@@ -1,8 +1,8 @@
 require('rootpath')();
 var express = require('express');
-var RedisStore = require('connect-redis')(express);
 var app = express();
 var session = require('express-session');
+var RedisStore = require('connect-redis')(session);
 var bodyParser = require('body-parser');
 var expressJwt = require('express-jwt');
 var config = require('config.json');
